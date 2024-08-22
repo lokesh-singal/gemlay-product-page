@@ -13,7 +13,7 @@ export const LabDetail = () => {
               <img
                 width={17}
                 height={17}
-                src="./src/assets/slider_info_icons/BisHallmark.svg"
+                src="./assets/slider_info_icons/BisHallmark.svg"
                 alt=""
               />
               BIS Hallmark
@@ -24,7 +24,7 @@ export const LabDetail = () => {
               <img
                 width={20}
                 height={20}
-                src="./src/assets/slider_info_icons/igi.svg"
+                src="./assets/slider_info_icons/igi.svg"
                 alt=""
               />
               IGI
@@ -35,7 +35,7 @@ export const LabDetail = () => {
               <img
                 width={20}
                 height={20}
-                src="./src/assets/slider_info_icons/sgl.svg"
+                src="./assets/slider_info_icons/sgl.svg"
                 alt=""
               />
               SGL

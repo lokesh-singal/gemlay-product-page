@@ -35,7 +35,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={22}
-                  src="./src/assets/footer_icons/gold-rate.svg"
+                  src="./assets/footer_icons/gold-rate.svg"
                   alt=""
                 />
               </div>
@@ -46,7 +46,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={22}
-                  src="./src/assets/footer_icons/payment-method.svg"
+                  src="./assets/footer_icons/payment-method.svg"
                   alt=""
                 />
               </div>
@@ -78,7 +78,7 @@ export const MobileFooter = () => {
                 <img
                   width={20}
                   height={23}
-                  src="./src/assets/footer_icons/return.svg"
+                  src="./assets/footer_icons/return.svg"
                   alt=""
                 />
               </div>
@@ -89,7 +89,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={25}
-                  src="./src/assets/footer_icons/shipping.svg"
+                  src="./assets/footer_icons/shipping.svg"
                   alt=""
                 />
               </div>
@@ -100,7 +100,7 @@ export const MobileFooter = () => {
                 <img
                   width={22}
                   height={22}
-                  src="./src/assets/footer_icons/exchange.svg"
+                  src="./assets/footer_icons/exchange.svg"
                   alt=""
                 />
               </div>
@@ -111,7 +111,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/refund.svg"
+                  src="./assets/footer_icons/refund.svg"
                   alt=""
                 />
               </div>
@@ -122,7 +122,7 @@ export const MobileFooter = () => {
                 <img
                   width={22}
                   height={25}
-                  src="./src/assets/footer_icons/gspLogo.svg"
+                  src="./assets/footer_icons/gspLogo.svg"
                   alt=""
                 />
               </div>
@@ -153,7 +153,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/gold.svg"
+                  src="./assets/footer_icons/gold.svg"
                   alt=""
                 />
               </div>
@@ -164,7 +164,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/diamond.svg"
+                  src="./assets/footer_icons/diamond.svg"
                   alt=""
                 />
               </div>
@@ -175,7 +175,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/JEWELLERY.svg"
+                  src="./assets/footer_icons/JEWELLERY.svg"
                   alt=""
                 />
               </div>
@@ -186,7 +186,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/SOLITIARE-DIAMOND.svg"
+                  src="./assets/footer_icons/SOLITIARE-DIAMOND.svg"
                   alt=""
                 />
               </div>
@@ -197,7 +197,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/GEMSTONE.svg"
+                  src="./assets/footer_icons/GEMSTONE.svg"
                   alt=""
                 />
               </div>
@@ -208,7 +208,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/CERTIFICATION.svg"
+                  src="./assets/footer_icons/CERTIFICATION.svg"
                   alt=""
                 />
               </div>
@@ -219,7 +219,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/JEWELLERY1.svg"
+                  src="./assets/footer_icons/JEWELLERY1.svg"
                   alt=""
                 />
               </div>
@@ -250,7 +250,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/vision.svg"
+                  src="./assets/footer_icons/vision.svg"
                   alt=""
                 />
               </div>
@@ -261,7 +261,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/garnet.svg"
+                  src="./assets/footer_icons/garnet.svg"
                   alt=""
                 />
               </div>
@@ -272,7 +272,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/story.svg"
+                  src="./assets/footer_icons/story.svg"
                   alt=""
                 />
               </div>
@@ -283,7 +283,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/team.svg"
+                  src="./assets/footer_icons/team.svg"
                   alt=""
                 />
               </div>
@@ -294,7 +294,7 @@ export const MobileFooter = () => {
                 <img
                   width={25}
                   height={23}
-                  src="./src/assets/footer_icons/review.svg"
+                  src="./assets/footer_icons/review.svg"
                   alt=""
                 />
               </div>
@@ -305,7 +305,7 @@ export const MobileFooter = () => {
                 <img
                   width={12}
                   height={12}
-                  src="./src/assets/footer_icons/press.svg"
+                  src="./assets/footer_icons/press.svg"
                   alt=""
                 />
               </div>
@@ -337,7 +337,7 @@ export const MobileFooter = () => {
                   <img
                     width={25}
                     height={22}
-                    src="./src/assets/footer_icons/whatsapp.svg"
+                    src="./assets/footer_icons/whatsapp.svg"
                     alt=""
                   />
                 </div>
@@ -348,7 +348,7 @@ export const MobileFooter = () => {
                   <img
                     width={25}
                     height={22}
-                    src="./src/assets/footer_icons/email.svg"
+                    src="./assets/footer_icons/email.svg"
                     alt=""
                   />
                 </div>
@@ -359,7 +359,7 @@ export const MobileFooter = () => {
                   <img
                     width={30}
                     height={30}
-                    src="./src/assets/footer_icons/navigation.svg"
+                    src="./assets/footer_icons/navigation.svg"
                     alt=""
                   />
                 </div>
@@ -375,21 +375,21 @@ export const MobileFooter = () => {
                   width={30}
                   height={30}
                   role="button"
-                  src="./src/assets/footer_icons/fb.svg"
+                  src="./assets/footer_icons/fb.svg"
                   alt=""
                 />
                 <img
                   width={30}
                   height={30}
                   role="button"
-                  src="./src/assets/footer_icons/insta.svg"
+                  src="./assets/footer_icons/insta.svg"
                   alt=""
                 />
                 <img
                   width={30}
                   height={30}
                   role="button"
-                  src="./src/assets/footer_icons/youtube.svg"
+                  src="./assets/footer_icons/youtube.svg"
                   alt=""
                 />
               </li>
@@ -401,8 +401,8 @@ export const MobileFooter = () => {
       <ul className="app">
         Download Our Application
         <li>
-          <img src="./src/assets/footer_icons/google-play.png" alt="" />
-          <img src="./src/assets/footer_icons/apple-pay.png" alt="" />
+          <img src="./assets/footer_icons/google-play.png" alt="" />
+          <img src="./assets/footer_icons/apple-pay.png" alt="" />
         </li>
       </ul>
     </div>

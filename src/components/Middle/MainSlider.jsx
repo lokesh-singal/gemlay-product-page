@@ -35,7 +35,7 @@ export const MainSlider = () => {
                 role="button"
                 width={30}
                 height={30}
-                src="./src/assets/slider_info_icons/compare.svg"
+                src="./assets/slider_info_icons/compare.svg"
                 alt=""
               />
             </div>
@@ -161,7 +161,7 @@ export const MainSlider = () => {
                 <img
                   width={25}
                   height={25}
-                  src="./src/assets/slider_info_icons/locate-me.svg"
+                  src="./assets/slider_info_icons/locate-me.svg"
                   alt=""
                 />
               </ul>
@@ -198,10 +198,7 @@ export const MainSlider = () => {
             </div>
             <div className="add-to-cart-btn">
               <button>
-                <img
-                  src="./src/assets/slider_info_icons/addtocart.svg"
-                  alt=""
-                />
+                <img src="./assets/slider_info_icons/addtocart.svg" alt="" />
                 ADD TO CART
               </button>
             </div>

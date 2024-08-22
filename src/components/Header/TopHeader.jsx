@@ -80,12 +80,12 @@ export const TopHeader = () => {
             </span>
             <img
               role="button"
-              src="./src/assets/top_header_icons/pinCodeModalIcon.svg"
+              src="./assets/top_header_icons/pinCodeModalIcon.svg"
               alt=""
             />
             <img
               role="button"
-              src="./src/assets/top_header_icons/flag.svg"
+              src="./assets/top_header_icons/flag.svg"
               alt=""
             />
           </div>

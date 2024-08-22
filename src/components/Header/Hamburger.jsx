@@ -13,13 +13,13 @@ export const Hamburger = ({ setShowHamburger }) => {
       <div className="menu-logo">
         <img
           onClick={() => setShowHamburger(false)}
-          src="./src/assets/header_icons/prevArrow.svg"
+          src="./assets/header_icons/prevArrow.svg"
           alt=""
         />
         <div className="logo">
-          <img src="./src/assets/header_icons/logo.webp" alt="" />
+          <img src="./assets/header_icons/logo.webp" alt="" />
         </div>
-        <img src="./src/assets/header_icons/mini-cart.svg" alt="" />
+        <img src="./assets/header_icons/mini-cart.svg" alt="" />
       </div>
 
       <div className="navigation-menu">
@@ -31,7 +31,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/user.png"
+                    src="./assets/hamburger_icons/user.png"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -57,7 +57,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/newarrivals.svg"
+                    src="./assets/hamburger_icons/newarrivals.svg"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -85,7 +85,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ENGAGEMENT
@@ -96,7 +96,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       DAILY WEAR
@@ -107,7 +107,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       BANDS
@@ -118,7 +118,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       FLORAL
@@ -129,7 +129,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HEARTTHROB
@@ -140,7 +140,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       CHAINED
@@ -151,7 +151,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HELICAL AND WAVY
@@ -162,7 +162,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ADJUSTABLE
@@ -196,7 +196,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/woman-avatar.svg"
+                        src="./assets/bottom_header_icons/woman-avatar.svg"
                         alt=""
                       />
                       WOMEN
@@ -208,7 +208,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/male-user.svg"
+                        src="./assets/bottom_header_icons/male-user.svg"
                         alt=""
                       />
                       MEN
@@ -225,7 +225,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Yellow.webp"
+                        src="./assets/bottom_header_icons/Yellow.webp"
                         alt=""
                       />
                       YELLOW GOLD
@@ -237,7 +237,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/WhiteGold.webp"
+                        src="./assets/bottom_header_icons/WhiteGold.webp"
                         alt=""
                       />
                       WHITE GOLD
@@ -249,7 +249,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Rosegold.webp"
+                        src="./assets/bottom_header_icons/Rosegold.webp"
                         alt=""
                       />
                       ROSE GOLD
@@ -263,7 +263,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     width={200}
                     height={50}
-                    src="./src/assets/bottom_header_icons/new2001.webp"
+                    src="./assets/bottom_header_icons/new2001.webp"
                     alt=""
                   />
                 </ul>
@@ -287,7 +287,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/rings.svg"
+                    src="./assets/hamburger_icons/rings.svg"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -315,7 +315,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ENGAGEMENT
@@ -326,7 +326,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       DAILY WEAR
@@ -337,7 +337,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       BANDS
@@ -348,7 +348,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       FLORAL
@@ -359,7 +359,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HEARTTHROB
@@ -370,7 +370,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       CHAINED
@@ -381,7 +381,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HELICAL AND WAVY
@@ -392,7 +392,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ADJUSTABLE
@@ -426,7 +426,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/woman-avatar.svg"
+                        src="./assets/bottom_header_icons/woman-avatar.svg"
                         alt=""
                       />
                       WOMEN
@@ -438,7 +438,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/male-user.svg"
+                        src="./assets/bottom_header_icons/male-user.svg"
                         alt=""
                       />
                       MEN
@@ -455,7 +455,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Yellow.webp"
+                        src="./assets/bottom_header_icons/Yellow.webp"
                         alt=""
                       />
                       YELLOW GOLD
@@ -467,7 +467,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/WhiteGold.webp"
+                        src="./assets/bottom_header_icons/WhiteGold.webp"
                         alt=""
                       />
                       WHITE GOLD
@@ -479,7 +479,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Rosegold.webp"
+                        src="./assets/bottom_header_icons/Rosegold.webp"
                         alt=""
                       />
                       ROSE GOLD
@@ -493,7 +493,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     width={200}
                     height={50}
-                    src="./src/assets/bottom_header_icons/new2001.webp"
+                    src="./assets/bottom_header_icons/new2001.webp"
                     alt=""
                   />
                 </ul>
@@ -517,7 +517,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/earings.svg"
+                    src="./assets/hamburger_icons/earings.svg"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -545,7 +545,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ENGAGEMENT
@@ -556,7 +556,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       DAILY WEAR
@@ -567,7 +567,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       BANDS
@@ -578,7 +578,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       FLORAL
@@ -589,7 +589,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HEARTTHROB
@@ -600,7 +600,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       CHAINED
@@ -611,7 +611,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HELICAL AND WAVY
@@ -622,7 +622,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ADJUSTABLE
@@ -656,7 +656,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/woman-avatar.svg"
+                        src="./assets/bottom_header_icons/woman-avatar.svg"
                         alt=""
                       />
                       WOMEN
@@ -668,7 +668,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/male-user.svg"
+                        src="./assets/bottom_header_icons/male-user.svg"
                         alt=""
                       />
                       MEN
@@ -685,7 +685,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Yellow.webp"
+                        src="./assets/bottom_header_icons/Yellow.webp"
                         alt=""
                       />
                       YELLOW GOLD
@@ -697,7 +697,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/WhiteGold.webp"
+                        src="./assets/bottom_header_icons/WhiteGold.webp"
                         alt=""
                       />
                       WHITE GOLD
@@ -709,7 +709,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Rosegold.webp"
+                        src="./assets/bottom_header_icons/Rosegold.webp"
                         alt=""
                       />
                       ROSE GOLD
@@ -723,7 +723,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     width={200}
                     height={50}
-                    src="./src/assets/bottom_header_icons/new2001.webp"
+                    src="./assets/bottom_header_icons/new2001.webp"
                     alt=""
                   />
                 </ul>
@@ -747,7 +747,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/pendent.svg"
+                    src="./assets/hamburger_icons/pendent.svg"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -775,7 +775,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ENGAGEMENT
@@ -786,7 +786,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       DAILY WEAR
@@ -797,7 +797,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       BANDS
@@ -808,7 +808,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       FLORAL
@@ -819,7 +819,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HEARTTHROB
@@ -830,7 +830,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       CHAINED
@@ -841,7 +841,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HELICAL AND WAVY
@@ -852,7 +852,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ADJUSTABLE
@@ -886,7 +886,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/woman-avatar.svg"
+                        src="./assets/bottom_header_icons/woman-avatar.svg"
                         alt=""
                       />
                       WOMEN
@@ -898,7 +898,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/male-user.svg"
+                        src="./assets/bottom_header_icons/male-user.svg"
                         alt=""
                       />
                       MEN
@@ -915,7 +915,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Yellow.webp"
+                        src="./assets/bottom_header_icons/Yellow.webp"
                         alt=""
                       />
                       YELLOW GOLD
@@ -927,7 +927,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/WhiteGold.webp"
+                        src="./assets/bottom_header_icons/WhiteGold.webp"
                         alt=""
                       />
                       WHITE GOLD
@@ -939,7 +939,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Rosegold.webp"
+                        src="./assets/bottom_header_icons/Rosegold.webp"
                         alt=""
                       />
                       ROSE GOLD
@@ -953,7 +953,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     width={200}
                     height={50}
-                    src="./src/assets/bottom_header_icons/new2001.webp"
+                    src="./assets/bottom_header_icons/new2001.webp"
                     alt=""
                   />
                 </ul>
@@ -977,7 +977,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/bracelets.svg"
+                    src="./assets/hamburger_icons/bracelets.svg"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -1005,7 +1005,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ENGAGEMENT
@@ -1016,7 +1016,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       DAILY WEAR
@@ -1027,7 +1027,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       BANDS
@@ -1038,7 +1038,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       FLORAL
@@ -1049,7 +1049,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HEARTTHROB
@@ -1060,7 +1060,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       CHAINED
@@ -1071,7 +1071,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HELICAL AND WAVY
@@ -1082,7 +1082,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ADJUSTABLE
@@ -1116,7 +1116,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/woman-avatar.svg"
+                        src="./assets/bottom_header_icons/woman-avatar.svg"
                         alt=""
                       />
                       WOMEN
@@ -1128,7 +1128,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/male-user.svg"
+                        src="./assets/bottom_header_icons/male-user.svg"
                         alt=""
                       />
                       MEN
@@ -1145,7 +1145,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Yellow.webp"
+                        src="./assets/bottom_header_icons/Yellow.webp"
                         alt=""
                       />
                       YELLOW GOLD
@@ -1157,7 +1157,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/WhiteGold.webp"
+                        src="./assets/bottom_header_icons/WhiteGold.webp"
                         alt=""
                       />
                       WHITE GOLD
@@ -1169,7 +1169,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Rosegold.webp"
+                        src="./assets/bottom_header_icons/Rosegold.webp"
                         alt=""
                       />
                       ROSE GOLD
@@ -1183,7 +1183,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     width={200}
                     height={50}
-                    src="./src/assets/bottom_header_icons/new2001.webp"
+                    src="./assets/bottom_header_icons/new2001.webp"
                     alt=""
                   />
                 </ul>
@@ -1197,7 +1197,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/goldcoin.svg"
+                    src="./assets/hamburger_icons/goldcoin.svg"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -1223,7 +1223,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     height={20}
                     width={20}
-                    src="./src/assets/hamburger_icons/alljewellery.svg"
+                    src="./assets/hamburger_icons/alljewellery.svg"
                     alt=""
                     style={{ color: "transparent" }}
                   />
@@ -1251,7 +1251,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ENGAGEMENT
@@ -1262,7 +1262,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       DAILY WEAR
@@ -1273,7 +1273,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       BANDS
@@ -1284,7 +1284,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       FLORAL
@@ -1295,7 +1295,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HEARTTHROB
@@ -1306,7 +1306,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       CHAINED
@@ -1317,7 +1317,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       HELICAL AND WAVY
@@ -1328,7 +1328,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                       <img
                         width={80}
                         height={80}
-                        src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                        src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                         alt=""
                       />
                       ADJUSTABLE
@@ -1362,7 +1362,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/woman-avatar.svg"
+                        src="./assets/bottom_header_icons/woman-avatar.svg"
                         alt=""
                       />
                       WOMEN
@@ -1374,7 +1374,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/male-user.svg"
+                        src="./assets/bottom_header_icons/male-user.svg"
                         alt=""
                       />
                       MEN
@@ -1391,7 +1391,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Yellow.webp"
+                        src="./assets/bottom_header_icons/Yellow.webp"
                         alt=""
                       />
                       YELLOW GOLD
@@ -1403,7 +1403,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/WhiteGold.webp"
+                        src="./assets/bottom_header_icons/WhiteGold.webp"
                         alt=""
                       />
                       WHITE GOLD
@@ -1415,7 +1415,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                         className="user"
                         width={13}
                         height={15}
-                        src="./src/assets/bottom_header_icons/Rosegold.webp"
+                        src="./assets/bottom_header_icons/Rosegold.webp"
                         alt=""
                       />
                       ROSE GOLD
@@ -1429,7 +1429,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                   <img
                     width={200}
                     height={50}
-                    src="./src/assets/bottom_header_icons/new2001.webp"
+                    src="./assets/bottom_header_icons/new2001.webp"
                     alt=""
                   />
                 </ul>
@@ -1444,7 +1444,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                     <img
                       height={20}
                       width={20}
-                      src="./src/assets/hamburger_icons/gsp.svg"
+                      src="./assets/hamburger_icons/gsp.svg"
                       alt=""
                       style={{ color: "transparent" }}
                     />
@@ -1460,7 +1460,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                     <img
                       height={20}
                       width={20}
-                      src="./src/assets/hamburger_icons/wishlist.svg"
+                      src="./assets/hamburger_icons/wishlist.svg"
                       alt=""
                       style={{ color: "transparent" }}
                     />
@@ -1476,7 +1476,7 @@ export const Hamburger = ({ setShowHamburger }) => {
                     <img
                       height={20}
                       width={20}
-                      src="./src/assets/hamburger_icons/cart.svg"
+                      src="./assets/hamburger_icons/cart.svg"
                       alt=""
                       style={{ color: "transparent" }}
                     />
@@ -1494,7 +1494,7 @@ export const Hamburger = ({ setShowHamburger }) => {
               <img
                 height={36}
                 width={36}
-                src="./src/assets/hamburger_icons/whatsapp.svg"
+                src="./assets/hamburger_icons/whatsapp.svg"
                 alt=""
               />
             </a>
@@ -1502,7 +1502,7 @@ export const Hamburger = ({ setShowHamburger }) => {
               <img
                 height={36}
                 width={36}
-                src="./src/assets/hamburger_icons/phone.svg"
+                src="./assets/hamburger_icons/phone.svg"
                 alt=""
               />
             </a>

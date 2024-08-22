@@ -65,7 +65,7 @@ export const ProductDetails = () => {
                   <img
                     width={30}
                     height={30}
-                    src="./src/assets/slider_info_icons/cash-on-delivery.svg"
+                    src="./assets/slider_info_icons/cash-on-delivery.svg"
                     alt=""
                   />
                 </div>
@@ -78,7 +78,7 @@ export const ProductDetails = () => {
                   <img
                     width={42}
                     height={36}
-                    src="./src/assets/slider_info_icons/return.svg"
+                    src="./assets/slider_info_icons/return.svg"
                     alt=""
                   />
                 </div>
@@ -91,7 +91,7 @@ export const ProductDetails = () => {
                   <img
                     width={40}
                     height={36}
-                    src="./src/assets/slider_info_icons/exchange.svg"
+                    src="./assets/slider_info_icons/exchange.svg"
                     alt=""
                   />
                 </div>
@@ -104,7 +104,7 @@ export const ProductDetails = () => {
                   <img
                     width={38}
                     height={38}
-                    src="./src/assets/slider_info_icons/bis.svg"
+                    src="./assets/slider_info_icons/bis.svg"
                     alt=""
                   />
                 </div>

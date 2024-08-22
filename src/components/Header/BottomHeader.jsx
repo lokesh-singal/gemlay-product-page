@@ -76,7 +76,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>ENGAGEMENT</p>
@@ -85,7 +85,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>DAILY WEAR</p>
@@ -94,7 +94,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>BANDS</p>
@@ -103,7 +103,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>FLORAL</p>
@@ -112,7 +112,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>HEARTTHROB</p>
@@ -121,7 +121,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>CHAINED</p>
@@ -130,7 +130,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>HELICAL AND WAVY</p>
@@ -139,7 +139,7 @@ export const BottomHeader = () => {
                 <img
                   height={80}
                   width={80}
-                  src="./src/assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
+                  src="./assets/bottom_header_icons/Criss-Cross20Ring_YE.webp"
                   alt=""
                 />
                 <p>ADJUSTABLE</p>
@@ -169,7 +169,7 @@ export const BottomHeader = () => {
                 <img
                   height={15}
                   width={15}
-                  src="./src/assets/bottom_header_icons/woman-avatar.svg"
+                  src="./assets/bottom_header_icons/woman-avatar.svg"
                   alt=""
                 />{" "}
                 Women
@@ -178,7 +178,7 @@ export const BottomHeader = () => {
                 <img
                   height={15}
                   width={15}
-                  src="./src/assets/bottom_header_icons/male-user.svg"
+                  src="./assets/bottom_header_icons/male-user.svg"
                   alt=""
                 />{" "}
                 Men
@@ -190,7 +190,7 @@ export const BottomHeader = () => {
                 <img
                   height={13}
                   width={13}
-                  src="./src/assets/bottom_header_icons/Yellow.webp"
+                  src="./assets/bottom_header_icons/Yellow.webp"
                   alt=""
                 />{" "}
                 Yellow Gold
@@ -199,7 +199,7 @@ export const BottomHeader = () => {
                 <img
                   height={13}
                   width={13}
-                  src="./src/assets/bottom_header_icons/WhiteGold.webp"
+                  src="./assets/bottom_header_icons/WhiteGold.webp"
                   alt=""
                 />{" "}
                 White Gold
@@ -208,7 +208,7 @@ export const BottomHeader = () => {
                 <img
                   height={13}
                   width={13}
-                  src="./src/assets/bottom_header_icons/Rosegold.webp"
+                  src="./assets/bottom_header_icons/Rosegold.webp"
                   alt=""
                 />{" "}
                 Rose Gold
@@ -217,10 +217,7 @@ export const BottomHeader = () => {
           </div>
           <div className="collection">
             <p className="drop-head">COLLECTIONS</p>
-            <img
-              src="./src/assets/bottom_header_icons/new2001.webp"
-              alt=""
-            />{" "}
+            <img src="./assets/bottom_header_icons/new2001.webp" alt="" />{" "}
           </div>
         </div>
       </div>

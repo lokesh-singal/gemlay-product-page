@@ -17,7 +17,7 @@ export const MainHeader = () => {
               <img
                 width={200}
                 height={40}
-                src="./src/assets/brand_logo.svg"
+                src="./assets/brand_logo.svg"
                 style={{ color: "transparent" }}
               />
             </a>
@@ -25,7 +25,7 @@ export const MainHeader = () => {
 
           <div className="search-box">
             <div className="search-box-inner">
-              <img src="./src/assets/header_icons/searchIcon1.svg" alt="" />
+              <img src="./assets/header_icons/searchIcon1.svg" alt="" />
               <input type="text" placeholder="Search Products..." />
             </div>
           </div>
@@ -35,7 +35,7 @@ export const MainHeader = () => {
               <img
                 height={26}
                 width={26}
-                src="./src/assets/header_icons/gsp.svg"
+                src="./assets/header_icons/gsp.svg"
                 alt=""
               />
               <span className="icon-text">GSP</span>
@@ -45,7 +45,7 @@ export const MainHeader = () => {
                 <img
                   height={26}
                   width={26}
-                  src="./src/assets/header_icons/wishlist-svg.svg"
+                  src="./assets/header_icons/wishlist-svg.svg"
                   alt=""
                 />
                 {wishlist && <div className="cartBadge">1</div>}
@@ -56,7 +56,7 @@ export const MainHeader = () => {
               <img
                 height={26}
                 width={26}
-                src="./src/assets/header_icons/mini-cart.svg"
+                src="./assets/header_icons/mini-cart.svg"
                 alt=""
               />
               <span className="icon-text">CART</span>
@@ -65,7 +65,7 @@ export const MainHeader = () => {
               <img
                 height={26}
                 width={26}
-                src="./src/assets/header_icons/qr.svg"
+                src="./assets/header_icons/qr.svg"
                 alt=""
               />
               <span className="icon-text">VERIFY REPORT</span>
@@ -77,7 +77,7 @@ export const MainHeader = () => {
                 <img
                   height={40}
                   width={40}
-                  src="./src/assets/header_icons/profile.svg"
+                  src="./assets/header_icons/profile.svg"
                   alt=""
                 />
                 <span>Sign In</span>
@@ -95,7 +95,7 @@ export const MainHeader = () => {
               onClick={() => setShowHamburger(true)}
               width={20}
               height={15.5}
-              src="./src/assets/header_icons/navbar.svg"
+              src="./assets/header_icons/navbar.svg"
               alt=""
             />
             {showHamburger ? (
@@ -106,7 +106,7 @@ export const MainHeader = () => {
             <img
               height={40}
               width={200}
-              src="./src/assets/header_icons/logo.webp"
+              src="./assets/header_icons/logo.webp"
               style={{ color: "transparent" }}
               alt=""
             />
@@ -116,7 +116,7 @@ export const MainHeader = () => {
               <img
                 height={16}
                 width={16}
-                src="./src/assets/header_icons/searchIcon1.svg"
+                src="./assets/header_icons/searchIcon1.svg"
                 alt=""
               />
             </a>
@@ -125,7 +125,7 @@ export const MainHeader = () => {
                 <img
                   height={16}
                   width={16}
-                  src="./src/assets/header_icons/heart.svg"
+                  src="./assets/header_icons/heart.svg"
                   alt=""
                 />
                 {wishlist && <span className="count">1</span>}
@@ -135,7 +135,7 @@ export const MainHeader = () => {
               <img
                 height={16}
                 width={16}
-                src="./src/assets/header_icons/cart.svg"
+                src="./assets/header_icons/cart.svg"
                 alt=""
               />
             </a>
