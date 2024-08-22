@@ -135,7 +135,7 @@ img {
         background-size: cover;
         background-position: center 80px;
         z-index: 1000;
-        background-image: url(../../assets/header_icons/headerMobile.svg) !important;
+        background-image: url(./assets/header_icons/headerMobile.svg) !important;
         padding: 0px !important;
     }
 
