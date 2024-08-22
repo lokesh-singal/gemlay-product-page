@@ -13,7 +13,9 @@ export const MainSlider = () => {
   return (
     <div className="slider-container">
       <div className="product-slider-outer">
-        <div className="product-slider"></div>
+        <div className="product-slider">
+          <img src="./assets/slider-img.jpg" alt="" />
+        </div>
         <div className="zoom">PRODUCT SHOWN IN 10X ZOOM FOR YOUR CLARITY</div>
       </div>
       <div className="product-slider-info">
