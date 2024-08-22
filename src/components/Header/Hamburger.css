@@ -1,0 +1,131 @@
+.hamburger-menu {
+    transform: translateX(-100%);
+    transform: translateX(0px);
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+    z-index: 1001;
+    transition: 0.3s linear;
+    overflow-y: auto;
+}
+
+.hamburger-menu .menu-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 30px;
+}
+
+.menu-level .menu-item {
+    padding: 12px 20px;
+}
+
+.menu-level .active {
+    background: rgb(69, 179, 160);
+}
+
+.menu-level .menu-item a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-level .menu-item span {
+    color: rgb(48, 47, 47);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-level .fade {
+    padding: 10px 20px;
+}
+
+.menu-level .fade span {
+    color: rgb(48, 47, 47);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom-content {
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-content .contact {
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-content .signup button {
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px;
+    font-size: 11px;
+    background: linear-gradient(rgb(1, 36, 51) 0%, rgb(0, 122, 100) 100%);
+    width: 200px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    border: 0px;
+}
+
+.menu-items .sub-menu {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-menu p.inner-head {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.sub-menu .inner-data {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.sub-menu .inner-data li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.sub-menu .inner-data li img {
+    width: 40px;
+}
+
+.sub-menu .inner-data li img.user {
+    width: 15px;
+}
+
+.sub-menu .inner-data li a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

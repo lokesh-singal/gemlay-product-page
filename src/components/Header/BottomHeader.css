@@ -1,0 +1,90 @@
+.bottom-header {
+    background: rgb(245, 245, 245);
+    padding: 0px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 2px 0px;
+}
+
+.bottom-header .menu-items {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+}
+
+.bottom-header .menu-items .menu-item {
+    padding: 13px 0px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    letter-spacing: 0.025rem;
+    line-height: normal;
+}
+
+.dropdown-container {
+    width: 100%;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 1.5rem 2rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.aesthetic {
+    width: 35%;
+}
+
+.aesthetic .aesthetic-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.aesthetic .aesthetic-grid .aesthetic-grid-inner {
+    text-align: center;
+}
+
+.aesthetic .aesthetic-grid .aesthetic-grid-inner p {
+    font-size: 0.8rem;
+}
+
+.collection {
+    width: 15%;
+}
+
+.drop-head {
+    font-size: 1.02rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding-bottom: 1.45rem;
+}
+
+.dropdown ul li {
+    font-size: 0.9rem;
+    padding: 2px;
+    font-weight: 300;
+}
+
+@media(max-width:1000px) {
+    .aesthetic .aesthetic-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width:800px) {
+    .dropdown {
+        padding: 1.5rem 1rem;
+    }
+
+}
+
+@media(max-width:767px) {
+    .bottom-header {
+        display: none;
+    }
+}

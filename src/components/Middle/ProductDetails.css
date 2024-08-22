@@ -1,0 +1,169 @@
+.detail-container .detail-wrapper {
+    background: linear-gradient(rgba(248, 248, 248, 0.59) 0%, rgba(248, 248, 248, 0.53) 100%);
+    padding: 20px;
+    margin: 10px 0px 15px;
+    position: relative;
+}
+
+.detail-wrapper h3 {
+    display: flex;
+    gap: 10px;
+    color: rgb(48, 47, 47);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+    position: absolute;
+    /* top: 10px; */
+    left: 65px;
+    text-transform: uppercase;
+}
+
+.detail-wrapper .product-details {
+    margin: 60px 0px 15px;
+    display: flex;
+    gap: 30px;
+}
+
+.product-details ul.left-info {
+    display: flex;
+    width: 55%;
+}
+
+.product-details ul.left-info li {
+    width: 33.333%;
+    color: rgb(48, 47, 47);
+    font-size: 13px;
+    line-height: 22px;
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+    border-right: 1px solid rgb(226, 226, 226);
+    padding: 0px 25px;
+}
+
+ul.left-info li h4 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.product-details ul.right-info {
+    display: flex;
+    width: 45%;
+}
+
+.product-details ul.right-info li {
+    padding: 12px;
+    width: 25%;
+}
+
+.product-details li .product-info {
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(242, 238, 238) 0px 0px 5px 0px;
+    padding: 10px;
+    text-align: center;
+    height: 120px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li .product-info .thumb {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+ul.right-info li span {
+    color: rgb(48, 47, 47);
+    font-size: 13px;
+    line-height: normal;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.detail-container .price-breakdown {
+    padding: 20px 35px;
+}
+
+.price-breakdown .price-breakup {
+    display: flex;
+    gap: 13px;
+    color: rgb(48, 47, 47);
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.price-breakup a {
+    color: rgb(1, 36, 51);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+@media(max-width:767px) {
+    .detail-container .price-breakdown {
+        padding: 20px 0px;
+    }
+
+    .detail-container {
+        padding: 0 15px;
+    }
+
+    .product-details {
+        margin: 30px 0px 15px;
+        flex-flow: column;
+        gap: 10px;
+    }
+
+    .product-details ul.left-info {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .product-details ul.left-info li {
+        width: 50%;
+        font-size: 12px;
+        padding: 15px 5px !important;
+        border-bottom: 1px solid rgb(226, 226, 226);
+        border-right: 0px solid rgb(226, 226, 226);
+    }
+
+    .product-details ul.right-info {
+        overflow-y: auto;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .product-details ul.right-info li {
+        width: auto !important;
+    }
+}
+
+@media(max-width:1200px) {
+    .detail-wrapper .product-details {
+        margin: 30px 0 15px;
+        flex-flow: column;
+    }
+
+    .product-details ul.left-info,
+    .product-details ul.right-info {
+        width: 100%;
+    }
+
+    .product-details ul.left-info li {
+        padding: 0px 15px;
+    }
+
+    .product-details ul.right-info li {
+        margin: 0px;
+        padding: 7px;
+        width: 25%;
+    }
+}
