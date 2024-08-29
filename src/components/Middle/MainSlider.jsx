@@ -14,7 +14,15 @@ export const MainSlider = () => {
     <div className="slider-container">
       <div className="product-slider-outer">
         <div className="product-slider">
-          <img src="./assets/slider-img.jpg" alt="" />
+          {gold == "Yellow Gold" ? (
+            <img src="./assets/slider-img-y.jpg" alt="" />
+          ) : null}
+          {gold == "White Gold" ? (
+            <img src="./assets/slider-img-w.jpg" alt="" />
+          ) : null}
+          {gold == "Rose Gold" ? (
+            <img src="./assets/slider-img-r.jpg" alt="" />
+          ) : null}
         </div>
         <div className="zoom">PRODUCT SHOWN IN 10X ZOOM FOR YOUR CLARITY</div>
       </div>

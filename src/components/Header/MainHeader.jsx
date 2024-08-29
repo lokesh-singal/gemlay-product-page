@@ -99,7 +99,10 @@ export const MainHeader = () => {
               alt=""
             />
             {showHamburger ? (
-              <Hamburger setShowHamburger={setShowHamburger} />
+              <Hamburger
+                setShowHamburger={setShowHamburger}
+                showHamburger={showHamburger}
+              />
             ) : null}
           </div>
           <div className="logo">

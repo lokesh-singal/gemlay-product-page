@@ -1,6 +1,4 @@
 .hamburger-menu {
-    transform: translateX(-100%);
-    transform: translateX(0px);
     background: rgb(255, 255, 255);
     position: fixed;
     top: 0px;
@@ -9,8 +7,12 @@
     padding: 0px;
     height: 100%;
     z-index: 1001;
-    transition: 0.3s linear;
+    animation: slide-in 0.3s linear;
     overflow-y: auto;
+}
+
+.slide-out {
+    animation: slide-out 0.3s linear;
 }
 
 .hamburger-menu .menu-logo {
@@ -128,4 +130,24 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }

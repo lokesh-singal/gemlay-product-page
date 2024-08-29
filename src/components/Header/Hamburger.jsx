@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Hamburger.css";
-export const Hamburger = ({ setShowHamburger }) => {
+export const Hamburger = ({ setShowHamburger, showHamburger }) => {
   const [arrivals, setArrivals] = useState(false);
   const [ring, setRing] = useState(false);
   const [earring, setEaring] = useState(false);
@@ -8,11 +8,18 @@ export const Hamburger = ({ setShowHamburger }) => {
   const [bracelete, SetBracelete] = useState(false);
   const [alljewellery, setAlljwellery] = useState(false);
 
+  const handleSlideOut = () => {
+    document.querySelector(".hamburger-menu").classList.add("slide-out");
+    setTimeout(() => {
+      setShowHamburger(false);
+    }, 295);
+  };
+
   return (
     <div className="hamburger-menu">
       <div className="menu-logo">
         <img
-          onClick={() => setShowHamburger(false)}
+          onClick={handleSlideOut}
           src="./assets/header_icons/prevArrow.svg"
           alt=""
         />
